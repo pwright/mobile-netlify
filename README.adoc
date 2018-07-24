@@ -21,11 +21,11 @@ IMPORTANT: Edited `site.yml` must be in the `master` branch of `mobile-netlify`.
 
 . Create a link:https://www.netlify.com[Netlify account^] if you don't already have one.
 . Click *New site from Git* in Netlify if not done before. 
-.. To trigger a redeploy with the changes in already created Netlify project:
+** To trigger a redeploy with the changes in already created Netlify project:
 + 
-_Select the site in Netlify->Deploys->Trigger Deploy._
+* _Select the site in Netlify->Deploys->Trigger Deploy._
 + 
-Skip to step 9.
+* Skip to step 9.
 . Select the fork of `mobile-netlify` you created in step one.
 . Select to use the `master` branch.
 . Click *Deploy*.
@@ -43,4 +43,4 @@ Skip to step 9.
   
 
 == Known issues
-- There's an issue with the tabs, they seem to render tiny. 
+- There's an issue with the tabs, they seem to render tiny.
