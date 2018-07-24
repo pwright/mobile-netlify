@@ -4,6 +4,7 @@ This procedure allows you to preview a static website with proposed changes to l
 
 . Fork this repo.
 . Edit the site.yml to point to your fork of link:https://github.com/aerogear/mobile-docs[mobile-docs^] and/or link:https://github.com/aerogear/mobile-security[mobile-security^] and specify the branch you want to preview, for example:
+
 +
 ----
   - url: https://github.com/finp/mobile-docs.git
@@ -41,6 +42,5 @@ IMPORTANT: Edited `site.yml` must be in the `master` branch of `mobile-netlify`.
 ** link:https://docs.antora.org[Antora Docs^]
 ** link:https://www.netlify.com/docs/[Netlify Docs^]
   
-
 == Known issues
 - There's an issue with the tabs, they seem to render tiny.
