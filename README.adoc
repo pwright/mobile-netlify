@@ -1,0 +1,19 @@
+= Mobile Docs Previewer
+
+Allows you preview proposed changes to docs.aerogear.org without installing antora.
+
+. Fork this repo.
+. Edit the site.yml to point to your fork and the branch you want to preview, for example:
++
+----
+  - url: https://github.com/finp/mobile-docs.git
+    branches: fix-things
+----
+. Commit and push your changes to master branch.
+. Create a netlify account if you don't already have one at https://www.netlify.com/
+. Create a *New site from Git* in netlify.
+. Select the fork you created in step one.
+. Select to use the master branch.
+. Click *Deploy*.
+
+NOTE: There's an issue with the tabs, they seem to render tiny. 
