@@ -43,4 +43,7 @@ IMPORTANT: Edited `site.yml` must be in the `master` branch of `mobile-netlify`.
 ** link:https://www.netlify.com/docs/[Netlify Docs^]
   
 == Known issues
-- There's an issue with the tabs, they seem to render tiny.
+
+- There is an issue with the tabs, they render incorrectly. However you can still navigate to each tab as follows:
+
+image::tabs.gif[]
