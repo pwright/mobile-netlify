@@ -38,7 +38,7 @@ IMPORTANT: Edited `site.yml` must be in the `master` branch of `mobile-netlify`.
 - Ensure that you don't touch any other settings in Netlify other than stated in the procedure above.
 - Ensure that the docs are written with correct link:http://asciidoc.org/[AsciiDoc Syntax^].
 - Try clearing the Netlify cache by selecting the checkbox _Clear Cache_ in _Trigger Deploy_ from step 4.
-- If all else fails, consult the docs
+- Ask for help
 ** link:https://docs.antora.org[Antora Docs^]
 ** link:https://www.netlify.com/docs/[Netlify Docs^]
   
