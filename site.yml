@@ -10,6 +10,7 @@ content:
     branches: fix-attributes2
   - url: https://github.com/aerogear/mobile-security.git
     branches: master
+
 ui:
   bundle:
     url: https://github.com/aerogear/antora-ui/raw/master/build/ui-bundle.zip
