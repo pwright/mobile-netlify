@@ -6,17 +6,20 @@ site:
   start_page: aerogear::getting-started
 content:
   sources:
-  - url: https://github.com/aerogear/mobile-docs.git
-    branches: mdc-docs
+  - url: https://github.com/finp/mobile-docs.git
+    branches: add-tabs
   - url: https://github.com/aerogear/mobile-security.git
     branches: master
 
 ui:
   bundle:
-    url: https://github.com/aerogear/antora-ui/raw/master/build/ui-bundle.zip
+    url: https://github.com/finp/antora-ui/raw/add-tabs/build/ui-bundle.zip
     snapshot: true
 
 asciidoc:
+  extensions:
+  - ./lib/remote-include-processor.js
+  - ./lib/tab-block.js
   attributes:
     experimental: ''
     idprefix: ''
